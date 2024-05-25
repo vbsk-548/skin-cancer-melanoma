@@ -6,7 +6,7 @@ Current process for detecting these type of cancers with Doctor appointment woul
 ## Table of Contents
 * [Dataset](#Dataset)
 * [CNN Architecture Design](#CNN-Architecture-Design)
-* [Technologies Used](#conclusions)
+* [Technologies Used](#Technologies Used)
 * [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
