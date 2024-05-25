@@ -5,7 +5,7 @@ Current process for detecting these type of cancers with Doctor appointment woul
 
 ## Table of Contents
 * [Dataset](#Dataset)
-* [CNN Architecture Design](#CNN Architecture Design)
+* [CNN Architecture Design](#CNN-Architecture-Design)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
@@ -22,7 +22,7 @@ The data set has images per calss as shown below :
 ![image](https://github.com/vbsk-548/skin-cancer-melanoma/assets/170298017/8a1d5a23-41aa-4bec-84ea-ffc4addc0968)
 
 To overcome the issue of class imbalance, used a python package Augmentor (https://augmentor.readthedocs.io/en/master/) to add more samples across all classes so that none of the classes have very few samples.
-## CNN Architecture Design
+## CNN-Architecture-Design
 
 To classify skin cancer using skin lesions images. To achieve higher accuracy and results on the classification task, I have built custom CNN model.
 
