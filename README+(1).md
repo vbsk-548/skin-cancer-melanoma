@@ -6,7 +6,7 @@ Current process for detecting these type of cancers with Doctor appointment woul
 ## Table of Contents
 * [Dataset](#Dataset)
 * [CNN Architecture Design](#CNN-Architecture-Design)
-* [Conclusions](#conclusions)
+* [Technologies Used](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
@@ -65,19 +65,11 @@ Flatten Layer - Flattening is converting the data into a 1-dimensional array for
 
 ![image](https://github.com/vbsk-548/skin-cancer-melanoma/assets/170298017/586c4c52-d788-4818-b3c9-99a5a297765f)
 
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
 
 ## Technologies Used
-- tensorflow - version 1.0
-- keras - version 2.0
-- augmenter - version 3.0
+- tensorflow - version 2.15.0
+- keras - version 2.15.0
+- augmenter - version 0.2.12
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
