@@ -36,7 +36,28 @@ Activation Function(ReLU) - The rectified linear activation function or ReLU for
 Activation Function(Softmax) - The softmax function is used as the activation function in the output layer of neural network models that predict a multinomial probability distribution. The main advantage of using Softmax is the output probabilities range. The range will 0 to 1, and the sum of all the probabilities will be equal to one.
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
-
+## Project-Pipeline
+Data Reading/Data Understanding → Defining the path for train and test images
+Dataset Creation→ Create train & validation dataset from the train directory with a batch size of 32. Also, make sure you resize your images to 180*180.
+Dataset visualisation → Create a code to visualize one instance of all the nine classes present in the dataset
+Model Building & training : Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model rescale images to normalize pixel values between (0,1).
+Choose an appropriate optimiser and loss function for model training
+Train the model for ~20 epochs
+Write your findings after the model fit, see if there is evidence of model overfit or underfit-**Overfitting was observed in this model**
+Choose an appropriate data augmentation strategy to resolve underfitting/overfitting Model Building & training on the augmented data :
+Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model rescale images to normalize pixel values between (0,1).
+Choose an appropriate optimiser and loss function for model training
+Train the model for ~20 epochs
+Write your findings after the model fit, see if the earlier issue is resolved or not? **Overfitting has been addressed but model is underfit as accuracy is quite low**
+**Class distribution: **
+Examine the current class distribution in the training dataset
+Which class has the least number of samples?
+Which classes dominate the data in terms of the proportionate number of samples? Handling class imbalances:
+Rectify class imbalances present in the training dataset with Augmentor library. Model Building & training on the rectified class imbalance data:
+Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model rescale images to normalize pixel values between (0,1).
+Choose an appropriate optimiser and loss function for model training
+Train the model for ~30 epochs
+Write your findings after the model fit, see if the issues are resolved or not?**Model is fitted better than earlier models**
 ## Model-Architecture
     Final model architecture used for class imbalance treated data
   ![image](https://github.com/vbsk-548/skin-cancer-melanoma/assets/170298017/88ee061a-6bec-4d21-9903-e6dd7f704d46)
@@ -55,9 +76,9 @@ Activation Function(Softmax) - The softmax function is used as the activation fu
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- tensorflow - version 1.0
+- keras - version 2.0
+- augmenter - version 3.0
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
@@ -67,9 +88,7 @@ Melanoma Skin Cancer from https://www.cancer.org/cancer/melanoma-skin-cancer/abo
 
 Introduction to CNN from https://www.analyticsvidhya.com/blog/2021/05/convolutional-neural-networks-cnn/
 
-Image classification using CNN from https://www.analyticsvidhya.com/blog/2020/02/learn-image-classification-cnn-convolutional-neural-networks-3-datasets/
-
-Efficient way to build CNN architecture from https://towardsdatascience.com/a-guide-to-an-efficient-way-to-build-neural-network-architectures-part-ii-hyper-parameter-42efca01e5d7
+Dataset provided by Upgrad at https://drive.google.com/file/d/1xLfSQUGDl8ezNNbUkpuHOYvSpTyxVhCs/view
 
 
 ## Contact
