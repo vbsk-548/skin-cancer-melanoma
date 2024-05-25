@@ -1,5 +1,6 @@
 # Melanoma Detection Assignment
-To build a CNN based model which can accurately detect melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
+To build a CNN based model which can accurately 9 different types of skin cancers pdetect melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. In the skin biopsy, the dermatologist takes some part of the skin lesion and examines it under the microscope. 
+Current process for detecting these type of cancers with Doctor appointment would span around 1-2 weeks which is quite large. This CNN model is aimed at reducing this detection period to 2 days. The approach uses Convolutional Neural Network (CNN) to classify nine types of skin cancer from outlier lesions images.
 
 
 ## Table of Contents
