@@ -4,18 +4,21 @@ Current process for detecting these type of cancers with Doctor appointment woul
 
 
 ## Table of Contents
-* [General Info](#general-information)
+* [Dataset](#Dataset)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+## Dataset
+-The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images.
+Sample image per class from dataset:
+![image](https://github.com/vbsk-548/skin-cancer-melanoma/assets/170298017/41688ab1-1251-49cb-aa66-827799d334bd)
+
+The data set contains the following diseases:
+![image](https://github.com/vbsk-548/skin-cancer-melanoma/assets/170298017/8a1d5a23-41aa-4bec-84ea-ffc4addc0968)
+To overcome the issue of class imbalance, used a python package Augmentor (https://augmentor.readthedocs.io/en/master/) to add more samples across all classes so that none of the classes have very few samples.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
