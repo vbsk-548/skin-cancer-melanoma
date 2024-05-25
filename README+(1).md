@@ -36,6 +36,15 @@ Activation Function(ReLU) - The rectified linear activation function or ReLU for
 Activation Function(Softmax) - The softmax function is used as the activation function in the output layer of neural network models that predict a multinomial probability distribution. The main advantage of using Softmax is the output probabilities range. The range will 0 to 1, and the sum of all the probabilities will be equal to one.
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
+
+## Model-Architecture
+    Final model architecture used for class imbalance treated data
+  ![image](https://github.com/vbsk-548/skin-cancer-melanoma/assets/170298017/88ee061a-6bec-4d21-9903-e6dd7f704d46)
+
+## Model-Evaluation
+
+![image](https://github.com/vbsk-548/skin-cancer-melanoma/assets/170298017/586c4c52-d788-4818-b3c9-99a5a297765f)
+
 ## Conclusions
 - Conclusion 1 from the analysis
 - Conclusion 2 from the analysis
